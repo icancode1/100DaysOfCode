@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors and more designing</title>
+    <style>
+        .container{
+            /* border: 2px solid grey; */
+            border: none;
+            background-color: rgb(240, 190, 190);
+            padding: 15px;
+            margin: 15px auto;
+            text-align: center;
+            width: 750px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            box-shadow: rgb(81, 121, 121);
+            background-color: rgb(128, 128, 173);            
+        }
+        .btn:hover{
+            box-shadow: rgb(81, 121, 121);
+            background-color: rgb(128, 128, 173); 
+        } 
+        .btn:visited{
+            background-color: rgb(231, 222, 222);
+        }  
+               
+        .btn{
+            background-color: rgb(146, 250, 215);
+            padding: 8px;
+            cursor: pointer;
+            border: none;
+            border-radius: 7px;
+            font-size: medium;
+            font-family: sans-serif;
+        } 
+    </style>
+</head>
+<body>
+    <div id="cont1", class="container">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos quaerat voluptates amet repudiandae a soluta distinctio quibusdam. Placeat, blanditiis perferendis! Beatae odio, porro assumenda at perspiciatis tenetur omnis esse.</p>
+        <a href="https://www.medium.com" class="btn">Read More</a>
+        <button class="btn">Click here</button>
+    </div>
+</body>
+</html>
